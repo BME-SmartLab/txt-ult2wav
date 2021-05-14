@@ -106,7 +106,7 @@ $SED -i s#'label_align:.*'#'label_align: %(TOPLEVEL)s/experiments/'${Voice}'/aco
 $SED -i s#'question_file_name:.*'#'question_file_name: %(Merlin)s/misc/questions/'${QuestionFile}# $acoustic_config_file
 
 # add additional input after 'add_frame_features: True'
-$SED -i s#"add_frame_features:.*"#"add_frame_features: True\nadditional_features: {'ultpca128' : 128}"# $acoustic_config_file
+# $SED -i s#"add_frame_features:.*"#"add_frame_features: True\nadditional_features: {'ultpca128' : 128}"# $acoustic_config_file
 
 if [ "$Labels" == "state_align" ]
 then
