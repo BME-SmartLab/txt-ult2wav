@@ -1,5 +1,24 @@
 [![Build Status](https://travis-ci.org/CSTR-Edinburgh/merlin.svg?branch=master)](https://travis-ci.org/CSTR-Edinburgh/merlin)
 
+## txt-ult2wav
+
+Implementation of Tamás Gábor Csapó, László Tóth, Gábor Gosztolya, Alexandra Markó, ,,Speech Synthesis from Text and Ultrasound Tongue Image-based Articulatory Input'', submitted to SSW11
+
+txt-ult2wav is extending the original Merlin toolkit, for articulatory-to-acoustic mapping (ultrasound-to-speech) purposes.
+
+For data, the [UltraSuite-TaL](https://ultrasuite.github.io/data/tal_corpus/) corpus is used.
+
+additional requirement: [ultrasuite-tools](https://github.com/UltraSuite/ultrasuite-tools)
+
+txt-ult2wav recipes:
+
+- [ultrasound-to-speech](egs/txt+ult2wav/ultrasuite_tal_ult2wav/README.md)
+- [text-to-speech](egs/txt+ult2wav/ultrasuite_tal_txt2wav/README.md)
+- [text&ultrasound-to-speech](egs/txt+ult2wav/ultrasuite_tal_txt+ult2wav/README.md)
+
+
+
+
 ## Merlin: The Neural Network (NN) based Speech Synthesis System
 
 This repository contains the Neural Network (NN) based Speech Synthesis System  
