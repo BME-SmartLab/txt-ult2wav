@@ -2,7 +2,7 @@
 
 ## txt-ult2wav
 
-Implementation of Tamás Gábor Csapó, László Tóth, Gábor Gosztolya, Alexandra Markó, ,,Speech Synthesis from Text and Ultrasound Tongue Image-based Articulatory Input'', submitted to SSW11
+Implementation of Tamás Gábor Csapó, László Tóth, Gábor Gosztolya, Alexandra Markó, ,,Speech Synthesis from Text and Ultrasound Tongue Image-based Articulatory Input'', submitted to SSW11, 2021.
 
 txt-ult2wav is extending the original Merlin toolkit, for articulatory-to-acoustic mapping (ultrasound-to-speech) purposes.
 
